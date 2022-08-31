@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+body {
+  background-color: var(--blue);
+  background: linear-gradient(
+    to left bottom,
+    rgb(168, 76, 0),
+    rgb(255, 239, 169)
+  );
+  background-attachment: fixed;
+}
+.container {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, rgb(168, 76, 0), rgb(255, 239, 169));
+  display: flex;
+  justify-content: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+.h1 {
+  color: black;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, rgb(168, 76, 0), rgb(255, 239, 169));
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Outfit", Verdana, sans-serif;
+  padding: 10px;
+}
+.paragraf {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 65px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 25px;
+  margin-bottom: 6img px;
+  font-family: "Outfit", Verdana, sans-serif;
+  font-stretch: expanded;
+  font-size: large;
+}
+.h2 {
+  font-family: "Outfit", Verdana, sans-serif;
+  font-stretch: expanded;
+  font-size: large;
+  color: black;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, rgb(168, 76, 0), rgb(255, 239, 169));
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container2 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(to bottom, rgb(168, 76, 0), rgb(255, 239, 169));
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-top-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  width: 350px;
+}
+.paragraf2 {
+  width: 400px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 6img px;
+  font-family: "Outfit", Verdana, sans-serif;
+  font-stretch: expanded;
+  font-size: large;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.imgs1 img {
+  width: 350px;
+  height: 350px;
+  filter: grayscale();
+  box-shadow: 5px 5px 10px;
+  border-radius: 19px;
+  transition: all 250ms;
+}
+.imgs1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+}
+.imgs1 img:hover {
+  transform: scale(1.04);
+  filter: none;
+}
+.imgs2 img {
+  width: 250px;
+  height: 350px;
+  margin-right: 40px;
+  filter: grayscale();
+  box-shadow: 5px 5px 10px;
+  border-radius: 19px;
+  transition: all 250ms;
+}
+.imgs2 img:hover {
+  transform: scale(1.04);
+  filter: none;
+}
+@media only screen and (max-width: 950px) {
+    .imgs1 img, .imgs2 img {
+        margin-top: 20px;
+        filter: none;
+    }
+    .paragraf{
+        padding-left: 15px;
+        padding-right:15px;
+    }
+    .imgs2 img {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
